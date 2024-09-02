@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mysore - Contact Us</title>
+    <style>
+        .text-primary{
+         
+             font-size: larger;
+             color: rgb(18, 4, 22);
+     }
+ 
+     </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+        <div class="container">
+                <ul>
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a class="current" href="feedback.html"> <span class="text-primary">Feedback</a></li>
+                </ul>
+              </div>
+            </nav>  
+    </header>
+
+     <section id="contact-form" class="py-3">
+         <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Feedback</h1>
+            <p>Please share your opinion</p>
+            <form action="process.php">
+                <div class="form-group">
+                   <laber for="name">Name</laber>
+                   <input type="text" name="Name" id="Name">
+                </div>
+                <div class="form-group">
+                   <laber for="email">Email</laber>
+                   <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                   <laber for="message">Message</laber>
+                   <textarea type="email" name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+         </div>
+     </section>
+     <section id="contact-info" class="bg-dark">
+         <div class="container">
+            <div class="box ">
+                <i class="fas fa-hotel fa-3x"></i>
+                   <h3> Location</h3>
+                   <p>The palace is in the centre of Mysore, and faces the Chamundi Hills eastward.</p>
+               </div>
+               <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Telephone Number</h3>
+                <p>180074366787</p>
+               </div>
+               <div class="box ">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>email</h3>
+                <p>mysurupalace@gmail.com></p>
+               </div>
+         </div>
+
+     </section>
+ 
+</body>
+</html>
