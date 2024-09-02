@@ -1,4 +1,3 @@
-- 👋 Hi, I’m @Srivatsarajeev
-- 👀 I’m interested in data analytics
-- 🌱 I’m currently learning python and analytics ...
-
+# samskruthika mane front end project
+welcome to my project
+this is a simple project designed to showcase the rich history of mysuru palace
