@@ -1,6 +1,5 @@
 # Hi, I'm Rajeev Srivatsa 
     
-   # also Rajeev M
 
 
 ### Python Developer | DevOps & Cloud | AI
